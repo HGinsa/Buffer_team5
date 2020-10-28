@@ -1,0 +1,114 @@
+
+body {font-family: NanumGothic, "나눔 고딕", sans-serif; width:1080px; align-items: center; justify-content: center; margin: 0 auto;}
+
+
+/* 상단 부분 */
+
+.title {display: flex; flex-direction: column; }
+header {background-color: #000; height: 120px;}
+h1 {color: #fff; font-size:40px; padding:40px; margin: 0 auto;}
+
+nav {display: flex;}
+nav a {
+        display: flex; align-items: center; justify-content: center; border:1px solid #d1d1d1;
+        height:33px; width: 300px; font-size: 16px; color:#000; text-decoration: none; margin:10px
+      }
+
+section {display: flex;flex-direction: column; padding: 40px;margin: 0 auto;}
+
+.box {border: #d1d1d1 solid 1px;   padding: 30px;font-size: 12px;color: #000;}
+.box .bt {display: flex;align-items: center;height: 46px;padding: 0 15px;font-size: 16px;color: #333;font-weight: bold;background: #f7f7f7;}
+.box .btc {  padding: 30px;  font-size: 12px;  color: #000;  border-top: #d1d1d1 1px solid;}
+
+/* 허찬빈 : form 요소 */
+
+.table1 caption {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    text-align:left;
+  }
+  
+  .table1 { 
+      color: #555;
+      font-size: 12px;
+      border: #e4e4e4;
+      width: 100%;
+      border-collapse: collapse;
+      }
+  
+  .table1 thead {
+    background-color: #fbfbfb;
+  }
+  
+  .table1 th {
+    padding: 10px;
+    text-align: center; 
+  }
+  
+  .table1 td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .table2 {
+    font-size: 12px;
+    color: #555;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  
+  .table2 caption {
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+    
+  }
+  .table2 thead {
+    background-color: #fbfbfb;
+    
+  }
+  
+  .table2 th {
+    border-top: 2px solid #a5a5a5;
+    border-bottom: 1px solid #e4e4e4;
+    
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .table2 td {
+   text-align: right;
+  }
+  
+  .table2 tfoot {
+    border-bottom: 1px solid #e4e4e4;
+    border-top: 1px solid #a5a5a5;
+  }
+  
+
+/* 폼 요소 종결 */
+
+
+p {font-size : 12px; color: #000;}
+#border {border: 1px; border-color: #e4e4e4;}
+#bstrong {font-weight:bold; font-size: 14px; color: #000;} /*각 항목들의 메인, 사전*/
+
+/*각 항목들의 메인, 사전*/
+
+/*리스트 요소*/
+
+#dmain {font-weight:bold; font-size: 32px; color: #000; text-align: center;} /*사전 제일 큰 글씨*/
+#sblue {font-weight:normal; font-size: 12px; color: #559bfa;} /*파란 작은 글씨*/
+#ssblue {font-weight:normal; font-size: 12px; color: #559bfa; font-weight: bold;} /*파란 작은 진한 글씨*/
+#slblue {font-size: 12px; text-decoration: underline; color:#559bfa;} /* link, small, line, blue */
+
+#blstrong {font-weight: bold; text-decoration: underline; font-size: 14px; color:#00C} /*blue + line + strong*/
+
+#abc {display: flex; justify-content: center;}
+
+.box #rank { border:#e0e0e0 solid 1px; padding:8px; font-size:10px; color: #666;text-align: center; margin:10px;}
+
+/*웹툰 요소*/
+
